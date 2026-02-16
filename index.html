@@ -383,6 +383,71 @@
         </div>
     </section>
 
+    <!-- ============ GALERÍA MULTIMEDIA ============ -->
+    <section class="multimedia" id="multimedia">
+        <div class="container">
+            <div class="multimedia__header animate-on-scroll">
+                <span class="section-tag">Galería</span>
+                <h2 class="section-title">Resultados y Experiencias</h2>
+                <p class="section-description">Descubre nuestras instalaciones, casos de éxito y testimonios de
+                    pacientes satisfechos.</p>
+            </div>
+
+            <!-- Photos Carousel -->
+            <div class="carousel-wrapper animate-on-scroll">
+                <div class="carousel-header">
+                    <h3 class="carousel-title">Nuestra Clínica</h3>
+                    <div class="carousel-controls">
+                        <button class="carousel-btn prev-btn" aria-label="Anterior imagen">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="15 18 9 12 15 6" />
+                            </svg>
+                        </button>
+                        <button class="carousel-btn next-btn" aria-label="Siguiente imagen">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="9 18 15 12 9 6" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="carousel-container" id="gallery-carousel">
+                    <!-- Images will be injected by JS -->
+                </div>
+            </div>
+
+            <!-- Videos Carousel -->
+            <div class="carousel-wrapper animate-on-scroll" style="margin-top: 4rem;">
+                <div class="carousel-header">
+                    <h3 class="carousel-title">Videos y Testimonios</h3>
+                    <div class="carousel-controls">
+                        <button class="carousel-btn vid-prev-btn" aria-label="Anterior video">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="15 18 9 12 15 6" />
+                            </svg>
+                        </button>
+                        <button class="carousel-btn vid-next-btn" aria-label="Siguiente video">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="9 18 15 12 9 6" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="carousel-container carousel-videos" id="video-carousel">
+                    <!-- Videos will be injected by JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox__close" aria-label="Cerrar">&times;</button>
+        <div class="lightbox__content">
+            <img src="" alt="" class="lightbox__img">
+            <video src="" controls class="lightbox__video"></video>
+        </div>
+    </div>
+
     <!-- ============ CTA PRINCIPAL ============ -->
     <section class="cta-section">
         <div class="cta-section__bg"></div>
