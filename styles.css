@@ -599,42 +599,19 @@ ul {
    SERVICES SECTION
    ============================================ */
 .services {
-    position: relative;
     padding: var(--space-3xl) 0;
     background: var(--bg-secondary);
-    overflow: hidden;
-}
-
-.services::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 600px;
-    height: 600px;
-    background-image: url('assets/img/watermark.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.03;
-    pointer-events: none;
-    z-index: 0;
 }
 
 .services__header {
     text-align: center;
     margin-bottom: var(--space-xl);
-    position: relative;
-    z-index: 1;
 }
 
 .services__grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: var(--space-md);
-    position: relative;
-    z-index: 1;
 }
 
 .service-card {
